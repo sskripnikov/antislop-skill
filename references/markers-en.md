@@ -57,6 +57,11 @@ indelible mark» — ×317, «play a significant role in shaping» — ×207,
 - Расплывчатая атрибуция: «experts say / studies show / critics argue / many believe» → «эксперты считают», «исследования показывают».
 - «As an AI language model…» — устаревший, но встречающийся самослив.
 - Чат-артефакты: «I hope this helps!», «Here's a draft…», «Would you like me to…».
+- Дежурный финал-раздел: «Despite these challenges…», «Challenges and Legacy», «Future Outlook», «continues to thrive» → §9.8 markers-ru.md.
+- Значимость через витрины: «has been cited in major outlets», «maintains an active social media presence», «written by a leading expert» → §3.1.
+- Догадка вместо пробела: «While specific details are limited…», «it is believed that», «likely grew up/studied», «maintains a low profile», «prefers to stay out of the spotlight» → §7.1.
+- Оборона от невысказанного: «I'm not saying that…», «Don't get me wrong», «To be clear», «This isn't really about…», «Some might say… but» → §9.9.
+- Фальшивая альтернатива: «A tempting approach would be…», «One might be tempted to…», «An obvious approach would be…, but», «It would be easy to just…» → §9.10.
 
 ## 3. Структурные паттерны
 
@@ -68,6 +73,9 @@ indelible mark» — ×317, «play a significant role in shaping» — ×207,
 - **Пустые подлежащие**: «It is worth noting that…», «There is no doubt that…».
 - **Ложные диапазоны**: «from the Big Bang to dark matter» — несоизмеримые концы.
 - **Эм-тире** для драматических вставок — самый мемный типографский маркер; частота у ИИ в 3–5 раз выше человеческой нормы. Дозировать, не вычищать под ноль.
+- **Passive with missing subject**: «No configuration file needed», «The results are preserved automatically» — действие есть, действующего нет. Русский эквивалент — §8.12 markers-ru.md.
+- **Repeated sentence openings**: «She noted the door. She noted the lock. She filed both away.» Зеркало synonym cycling: там ротация, здесь долбёж. Русский эквивалент — §8.11.
+- **Hyphenated pairs**: «cross-functional, data-driven, client-facing» гроздьями; дефис нужен перед существительным («a high-quality report») и не нужен после него («the report is high quality»). Английская болезнь, на русский не переносится.
 - **Разметка**: Title Case в заголовках, болд почти в каждом абзаце, inline-header списки («**Term:** description»), эмодзи, curly quotes.
 
 ## 4. Примеры «до → после» (EN)
@@ -92,6 +100,28 @@ indelible mark» — ×317, «play a significant role in shaping» — ×207,
 
 Цифры — ориентиры из детекционной литературы, а не цели для подгонки.
 Текст, подогнанный под метрики без живого содержания, остаётся слопом.
+
+## 6. Чего не переносить на русский
+
+Англоязычные анти-слоп руководства (в том числе Wikipedia «Signs of AI
+writing» и построенные на ней навыки) содержат типографские правила, которые
+на русском тексте вредят. Проверяйте язык, прежде чем применять:
+
+- **Запрет на тире.** В английском em dash — необязательный знак, и его
+  избыток действительно маркер. В русском тире обязательно в неполном
+  предложении и при пропуске связки («Москва — столица»), это норма, а
+  не след машины. Правило одно: дозировать (§8.7 markers-ru.md), а не
+  вычищать.
+- **Прямые кавычки вместо «ёлочек».** Совет из английских гайдов; в русской
+  типографике кавычки-ёлочки — стандарт, а „лапки" — вложенный уровень.
+  Curly quotes маркером считаются только в английском тексте.
+- **Title Case.** Русские заголовки и так пишутся с одной прописной, ловить
+  нечего. Флаг работает только на английском.
+- **Дефисные пары.** Правило про «high-quality report» / «report is high
+  quality» относится к английской орфографии и в русском смысла не имеет.
+
+Обратное тоже верно: раздел §11 markers-ru.md (кальки, лишние
+притяжательные, корпоративный жаргон) на английском тексте бессмысленен.
 
 ---
 
