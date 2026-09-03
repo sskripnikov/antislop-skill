@@ -155,7 +155,7 @@ blader/humanizer; пункт 2 ловит стерильность после ч
 
 ## Источники
 
-1. hexiecs/talk-normal (позитивная инструкция, регрессия rule-17) — https://github.com/hexiecs/talk-normal
+1. hexiecs/talk-normal (позитивные инструкции, регрессия rule-17) — https://github.com/hexiecs/talk-normal
 2. blader/humanizer (двухпроходный аудит, voice calibration) — https://github.com/blader/humanizer
 3. harshaneel/humanize (9 рычагов, audit-revise loop) — https://github.com/harshaneel/humanize
 4. Chakrabarty et al. «Can AI Writing Be Salvaged?» (LAMP, ~8 правок на абзац) — https://arxiv.org/abs/2409.14509
