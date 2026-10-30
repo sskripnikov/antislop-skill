@@ -38,6 +38,30 @@
 indelible mark» — ×317, «play a significant role in shaping» — ×207,
 «an unwavering commitment» — ×202.
 
+## 1а. Словарь по эпохам моделей
+
+Перечастотные слова меняются с поколением модели. «Delve» был маркером №1
+в 2023-м, к концу 2024-го пошёл на спад, в 2025-м почти исчез. Разбивка
+по Википедии (редакция октября 2026; границы приблизительные):
+
+| Эпоха | Модель | Слова |
+|---|---|---|
+| 2023 — середина 2024 | GPT-4 | additionally, boasts, bolstered, crucial, delve, emphasizing, enduring, garner, intricate, interplay, key, landscape, meticulously, pivotal, underscore, tapestry, testament, valuable, vibrant |
+| середина 2024 — середина 2025 | GPT-4o | align with, bolstered, crucial, emphasizing, enhance, enduring, fostering, highlighting, pivotal, showcasing, underscore, vibrant |
+| середина 2025 — середина 2026 | GPT-5 | emphasizing, enhance, highlighting, showcasing + лексика витрин (§2: independent coverage, featured in, active social media presence) |
+| с середины 2026 | GPT-6 | challenge, clearer, dependable, echoed, foster, leverage, matters, multifaceted, practical, prioritize, quietly, steady, universally; больше точек и запятых, фразы около 8–20 слов |
+
+Grok держится особняком: наукообразные causal, empirical, correlate
+и в 2026-м всё ещё underscore.
+
+Два правила чтения. Первое: перечастотно само слово, а не его синонимы.
+Колонка «русский эквивалент» в §1 показывает, где искать кальку,
+но не делает русское слово маркером автоматически. Второе: эпоха помогает
+датировать текст. Слова GPT-4 в тексте 2026 года говорят о старой модели
+или о человеке, который у неё научился. Сканер берёт из слоя GPT-6 только
+редкие слова (quietly, dependable, universally, prioritize, echoed);
+matters, practical, steady, clearer и challenge слишком обиходны.
+
 ## 2. Фразы-клише (sentence-level)
 
 - «In today's world / In the digital age / In today's fast-paced world» → «в современном мире», «в эпоху цифровизации».
@@ -62,19 +86,30 @@ indelible mark» — ×317, «play a significant role in shaping» — ×207,
 - Догадка вместо пробела: «While specific details are limited…», «it is believed that», «likely grew up/studied», «maintains a low profile», «prefers to stay out of the spotlight» → §7.1.
 - Оборона от невысказанного: «I'm not saying that…», «Don't get me wrong», «To be clear», «This isn't really about…», «Some might say… but» → §9.9.
 - Фальшивая альтернатива: «A tempting approach would be…», «One might be tempted to…», «An obvious approach would be…, but», «It would be easy to just…» → §9.10.
+- Анонс вместо тезиса: «Here's the thing:», «Here's what/why…», «Here's the problem though», «The uncomfortable truth is», «It turns out», «Let me be clear», «Full stop.», «Let that sink in», «Make no mistake» → §6.1–6.2.
+- Анонс структуры (meta-joiners): «The rest of this essay explains…», «In this section, we'll…», «As we'll see…», «Let me walk you through…», «I want to explore…» → §6.1.
+- Разрешение читателю: «And that's okay.», «That's fine.», «There's no shame in…» → §6.5.
+- Риторическая подводка: «What if I told you…», «Think about it.», «Here's what I mean:», вопрос с ответом в следующей фразе → §6.6.
+- Размытая связь вместо отношения: «in connection with», «associated with», «connected to», «was identified as associated with leadership of» вместо «was CEO of» → §7.2 markers-ru.md.
+- Поправочная оговорка (с середины 2026): «should be treated as indicative rather than definitive», «does not by itself establish», «based on available information», «in the available/provided sources», «should not be confused with» → §7.3.
+- Отчёт о процедуре вместо результата (особенно в сводках правок): «preserved all key information», «retained the original meaning», «avoided promotional tone», «ensured full compliance with guidelines» — заверение без конкретики.
+- Пустое утверждение важности: «The implications are significant», «The reasons are structural», «The stakes are high», «The consequences are real», «This is the deepest problem» → §3.2.
 
 ## 3. Структурные паттерны
 
-- **Negative parallelism** («It's not X, it's Y», «No X. No Y. Just Z.») — один из самых цитируемых синтаксических маркеров. Жёсткий бан.
+- **Negative parallelism** («It's not X, it's Y», «No X. No Y. Just Z.») — один из самых цитируемых синтаксических маркеров. Жёсткий бан. Свежий вариант 2026 года — перевёрнутый: «Y rather than X» («acts as an interface rather than a replacement»).
 - **Rule of three**: «innovation, inspiration, and insights» — тройки в каждом абзаце.
 - **Copula avoidance**: «serves as / functions as / stands as / represents» вместо повторного «is».
 - **Synonym cycling**: «the city — this vibrant metropolis — the urban area» — механическая ротация синонимов (побочка repetition penalty).
 - **Хвостовые -ing-придатки**: «…, highlighting the importance of…», «…, underscoring the significance of…», «…, reflecting the growing trend».
 - **Пустые подлежащие**: «It is worth noting that…», «There is no doubt that…».
 - **Ложные диапазоны**: «from the Big Bang to dark matter» — несоизмеримые концы.
-- **Эм-тире** для драматических вставок — самый мемный типографский маркер; частота у ИИ в 3–5 раз выше человеческой нормы. Дозировать, не вычищать под ноль.
+- **Эм-тире** для драматических вставок — самый мемный типографский маркер; частота у ИИ в 3–5 раз выше человеческой нормы. Дозировать, не вычищать под ноль. С осени 2026 Википедия держит его в «исторических» признаках: новые модели жёстко запрещают себе тире и сваливаются в одни точки и запятые. Замер июля 2026: из актуальных моделей только Claude ставит тире чаще профессиональных авторов, ChatGPT — реже. Подробнее §8.7 markers-ru.md.
 - **Passive with missing subject**: «No configuration file needed», «The results are preserved automatically» — действие есть, действующего нет. Русский эквивалент — §8.12 markers-ru.md.
 - **Repeated sentence openings**: «She noted the door. She noted the lock. She filed both away.» Зеркало synonym cycling: там ротация, здесь долбёж. Русский эквивалент — §8.11.
+- **False agency**: неживое действует вместо человека — «a complaint becomes a fix», «the decision emerges», «the data tells us», «the market rewards», «the culture shifts», «the conversation moves toward». Русский эквивалент — §10.12.
+- **Narrator-from-a-distance**: «Nobody designed this.», «People tend to…», «This is why…» в роли лекторского вывода над сценой. Русский эквивалент — §10.13.
+- **Wh-cleft**: «What makes this hard is…», «What matters here is…», «Why this works is…» — подлежащее спрятано в придаточное. Русский эквивалент — §8.15.
 - **Hyphenated pairs**: «cross-functional, data-driven, client-facing» гроздьями; дефис нужен перед существительным («a high-quality report») и не нужен после него («the report is high quality»). Английская болезнь, на русский не переносится.
 - **Разметка**: Title Case в заголовках, болд почти в каждом абзаце, inline-header списки («**Term:** description»), эмодзи, curly quotes.
 
@@ -122,6 +157,15 @@ writing» и построенные на ней навыки) содержат �
   нечего. Флаг работает только на английском.
 - **Дефисные пары.** Правило про «high-quality report» / «report is high
   quality» относится к английской орфографии и в русском смысла не имеет.
+- **Запреты stop-slop целиком** (версия 18.03.2026): «убить все наречия»,
+  «никакого пассива», «не начинать предложение с What/When/Why»,
+  «два пункта лучше трёх». Даже на английском это механические запреты,
+  которые сами дают узнаваемый ритм. На русском вредят прямо: частицы
+  и «потому что» модели недоиспользуют, их надо возвращать (§12.1–12.2),
+  безличность — норма приказа и протокола (§8.12), а фраза с «что» или
+  «как» в начале — обычный русский порядок слов. Берём из этих правил
+  только узкие конструкции: расщеплённую фразу §8.15, неживое действующее
+  лицо §10.12, пассив с пропавшим субъектом там, где субъект известен.
 
 Обратное тоже верно: раздел §11 markers-ru.md (кальки, лишние
 притяжательные, корпоративный жаргон) на английском тексте бессмысленен.
@@ -130,7 +174,7 @@ writing» и построенные на ней навыки) содержат �
 
 ## Источники
 
-1. Wikipedia (EN): «Signs of AI writing» — https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+1. Wikipedia (EN): «Signs of AI writing» (сверено с редакцией октября 2026: эпохи словаря §1а, размытая связь, поправочные оговорки, «Y rather than X», тире как исторический признак) — https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
 2. Shapira P. «Delving into “delve”» (анализ OpenAlex) — https://pshapira.net/2024/03/31/delving-into-delve/
 3. Kobak D. et al. «Delving into ChatGPT usage in academic writing through excess vocabulary» — https://arxiv.org/abs/2406.07016
 4. Matsui A. «Delve: a single word can detect AI-generated text?» — https://arxiv.org/abs/2407.08935
@@ -138,3 +182,4 @@ writing» и построенные на ней навыки) содержат �
 6. Мельничук А. О. (2024), частотная таблица слов — http://e-lib.bsufl.by/bitstream/edoc/16637/1/191-195.pdf
 7. Juzek T., Ward Z. «Why does ChatGPT use “Delve” so much?» — https://arxiv.org/abs/2505.01050
 8. Грамота.ру: «Как распознать ИИ-текст» — https://gramota.ru/journal/stati/tekhnologii/chem-sgenerirovannye-teksty-vydayut-sebya
+9. hardikpandya/stop-slop, версия 18.03.2026 (анонсы, meta-joiners, разрешение читателю, пустые утверждения, false agency, narrator distance, Wh-cleft), MIT — https://github.com/hardikpandya/stop-slop
